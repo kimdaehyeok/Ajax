@@ -9,13 +9,17 @@
 <script language="javascript" type="text/javascript">
 
 	var httpRequest;
-	var url;
+	var url = 'http://localhost:8081/AjaxExample/test.do';
 	
 	function validateUserId()
 	{
-		httpRequest = new XMLHttpRequest();
+		httpRequest = new XMLHttpRequest(); 
 		httpRequest.onreadystatechange = alertContents;
-		httpRequest.open('GET', url);
+		
+		url = url + '?userId=' +document.getElementById('userId').value;
+		alert(url);
+		
+		httpRequest.open('GET', url, true);
 	    httpRequest.send();
 		
 	}

@@ -20,7 +20,7 @@ public class AjaxResponse extends HttpServlet
        {
            response.setContentType("html/text");
            response.setHeader("Cache-Control","no-cache");
-           response.getWriter().write("true");
+           response.getWriter().append("Server Response : " + targetId );
        }
     }
 }
