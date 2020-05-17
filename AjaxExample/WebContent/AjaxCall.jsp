@@ -8,7 +8,7 @@
 
 <script language="javascript" type="text/javascript">
 	var httpRequest;
-	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // master
+	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // master + branch1
 
 	function v	alidateUserId() {
 		httpRequest = new XMLHttpRequest();
