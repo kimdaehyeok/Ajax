@@ -8,9 +8,9 @@
 
 <script language="javascript" type="text/javascript">
 	var httpRequest;
-	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do';
+	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // master
 
-	function validateUserId() {
+	function v	alidateUserId() {
 		httpRequest = new XMLHttpRequest();
 		httpRequest.onreadystatechange = alertContents;
 
