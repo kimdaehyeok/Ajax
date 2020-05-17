@@ -8,7 +8,7 @@
 
 <script language="javascript" type="text/javascript">
 	var httpRequest;
-	var url = 'http://localhost:8081/AjaxExample/ajaxReceive.do';
+	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do';
 
 	function validateUserId() {
 		httpRequest = new XMLHttpRequest();
