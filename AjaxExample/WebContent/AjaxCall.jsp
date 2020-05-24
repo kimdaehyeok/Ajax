@@ -10,7 +10,7 @@
 	var httpRequest;
 	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // master + branch1
 
-	function v	alidateUserId() {
+	function validateUserId() {
 		httpRequest = new XMLHttpRequest();
 		httpRequest.onreadystatechange = alertContents;
 
