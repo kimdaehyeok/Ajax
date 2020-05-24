@@ -10,7 +10,7 @@
 	var httpRequest;
 	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // master + branch1
 
-	function v	alidateUserId() {
+	function validateUserIdGet() {
 		httpRequest = new XMLHttpRequest();
 		httpRequest.onreadystatechange = alertContents;
 
@@ -60,7 +60,7 @@
 <body>
 	<form name="personForm">
 		<input type="text" size="20" id="userId" />
-		 <input type="button" value="ajaxCall_do" onClick="validateUserId()" />
+		 <input type="button" value="ajaxCall_do" onClick="validateUserIdGet()" />
 	</form>
 
 	<form name="personForm2">
