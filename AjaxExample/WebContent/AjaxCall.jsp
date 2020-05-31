@@ -8,7 +8,7 @@
 
 <script language="javascript" type="text/javascript">
 	var httpRequest;
-	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // conflict
+	var url = 'http://localhost:8080/AjaxExample/ajaxReceive.do'; // update-branch
 
 	function validateUserIdGet() {
 		httpRequest = new XMLHttpRequest();
