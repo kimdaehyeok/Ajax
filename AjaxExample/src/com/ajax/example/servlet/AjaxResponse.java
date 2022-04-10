@@ -15,6 +15,8 @@ public class AjaxResponse extends HttpServlet
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
+    	System.out.println("get");
+    	
        String targetId = request.getParameter("userId");
        
        if(!targetId.equals(""))
